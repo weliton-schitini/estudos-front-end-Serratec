@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div>
+        <h1>Cadastro de Devs</h1>
+        <p>Preencha os campos com suas informações</p>
+    </div>
+
+    <form action="">
+        <fieldset class="campo-info-pessoais">
+            <div class="box-input">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Digite seu nome">
+            </div>
+            <div class="box-input"></div>
+            <label for="sobrenome">sobrenome</label>
+            <input type="text" id="sobrenome" placeholder="Digite seu sobrenome">
+            </div>
+            <div class="box-input"></div>
+            <label for="email">email</label>
+            <input type="text" id="email" placeholder="Digite seu email">
+            </div>
+        </fieldset>
+
+        <div class="stack">
+            <label for="">Em qual lado da aplicação você gosta de trabalhar?</label>
+            <br>
+            <label for="stack"><input type="radio" value="frontend" name="stack"> front-end</label>
+            <label for="stack"><input type="radio" value="backend" name="stack"> back-end</label>
+            <label for="stack"><input type="radio" value="fullstack" name="stack"> fullstack</label>
+        </div>
+
+        <div class="campo-senioridade">
+            <label for="">senioridade</label>
+
+            <select name="senioridade" id="senioridade">
+                <option value="selected disabled value">Escolha uma opção</option>
+                <option value="junior">Junior</option>
+                <option value="pleno">Pleno</option>
+                <option value="senior">Senior</option>
+            </select>
+        </div>
+
+        <div class="checkbox">
+            <label for="tecnologia">selecione as tecnologias que você gosta de trabalhar</label>
+            <input type="checkbox" id="tecnologia" name="tecnologia1" value="html">
+
+            <label for="tecnologia">html</label>
+            <input type="checkbox" id="tecnologia" name="tecnologia1" value="html">
+
+            <label for="tecnologia">css</label>
+            <input type="checkbox" id="tecnologia" name="tecnologia1" value="html">
+
+            <label for="tecnologia">javaScript</label>
+            <input type="checkbox" id="tecnologia" name="tecnologia1" value="html">
+
+            <label for="tecnologia">javaScript</label>
+            <input type="checkbox" id="tecnologia" name="tecnologia1" value="html">
+
+            <label for="tecnologia">java</label>
+            <input type="checkbox" id="tecnologia" name="tecnologia1" value="html">
+
+            <label for="tecnologia">javaScript</label>
+            <input type="checkbox" id="tecnologia" name="tecnologia1" value="html">
+
+            <label for="tecnologia">php</label>
+            <input type="checkbox" id="tecnologia" name="tecnologia1" value="html">
+
+            <label for="tecnologia">Python</label>
+            <input type="checkbox" id="tecnologia" name="tecnologia1" value="html">
+
+        </div>
+        <button>clique aqui</button>
+    </form>
+</body>
+
+</html>
