@@ -60,7 +60,7 @@
     transition-duration: .7s;
 }
  .headerContainer nav ul li  :hover{
-    text-shadow: 2px 4px 4px black;
+    text-shadow: 4px 4px 5px black;
     
 }
 /* --------------------------------------------------------- */
@@ -95,7 +95,7 @@ main .cardSection {
     justify-content: center;
     padding: 20px;
     width: 100%;
-    gap: 40px;
+    gap: 70px;
     height: 100%;
 }
 
@@ -177,9 +177,10 @@ main .NewslatterSection form button {
     padding: 10px;
     width: 85%;
     font-weight: bold;
+    font-size: 1.5rem;
     cursor: pointer;
     transition: all;
-   transition-duration: .6s;
+    transition-duration: .6s;
 }
 main .NewslatterSection form button:hover{
    box-shadow: 2px 2px 2px rgb(30, 29, 29);
