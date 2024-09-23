@@ -220,8 +220,11 @@ main .NewslatterSection form button:hover{
 main .NewslatterSection form div {
     display: block;
     width: 100%;
-   
 
+}
+main .NewslatterSection form div input[type="checkbox"]{
+    transform: scale(2);
+    margin: 10px;
 }
 
 
