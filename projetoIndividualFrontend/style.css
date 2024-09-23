@@ -18,7 +18,7 @@
 
 
 .container {
-    max-width: 900px;
+    max-width: 70%;
     margin: auto;
     
 }
@@ -107,6 +107,7 @@ main .cardSection {
     width: 100%;
     gap: 70px;
     height: 100%;
+    margin: auto;
     
 }
 
@@ -114,7 +115,7 @@ main .cardSection .cards {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 200px;
+    max-width: 250px;
     height: 300px;
     border-radius: 10px;
     background-color: #222;
@@ -139,6 +140,7 @@ main .cardSection .cards img {
     width: 100%;
     height: 100%;
     border-radius: 10px;
+    object-fit: cover;
 }
 
  main .devInfoSection .devContainer {
@@ -154,6 +156,7 @@ main .cardSection .cards img {
 main .devInfoSection .devContainer img {
     width: 150px;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 
@@ -239,6 +242,7 @@ footer .socialLInks img {
     border-radius: 50%;
     padding: 10px;
     position: relative;
+    object-fit: cover;
 
 
 }
