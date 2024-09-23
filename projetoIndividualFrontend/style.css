@@ -154,7 +154,7 @@ main .cardSection .cards img {
 
 
 main .devInfoSection .devContainer img {
-    width: 150px;
+    width: 200px;
     border-radius: 50%;
     object-fit: cover;
 }
