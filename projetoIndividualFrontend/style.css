@@ -78,7 +78,10 @@
     transition-duration: .7s;
 }
  .headerContainer nav ul li  :hover{
-    text-shadow: 4px 4px 5px black;
+    text-shadow: 6px 10px 8px black;
+    position: relative;
+    bottom: 2px;
+    right: 2px;
     
 }
 
@@ -225,6 +228,7 @@ main .NewslatterSection form button {
     transition: all;
     transition-duration: .2s;
     position: relative;
+    color: #fff;
     
     
 }
