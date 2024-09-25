@@ -1,0 +1,49 @@
+
+@keyframes animaBtn {
+    10%{border-color: black;background-color: black;color: white;}
+    100%{border-color:red;background-color: black;color: red;}
+    
+}
+body{
+    background-color: darkslategray;
+}
+
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 500px;
+    height: 500px;
+    border-radius: 30%;
+    padding: 60px;
+    margin: auto;
+    align-items: center;
+
+
+}
+
+#btn{
+    width: 200px;
+    font-size: 2rem;
+    border: 6px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    animation-name: animaBtn;
+    animation-duration:.3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+   
+    
+}
+#btn:hover{
+    
+    cursor: pointer;
+}
+
+p{
+    font-size: 2rem;
+}

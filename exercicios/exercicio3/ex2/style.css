@@ -1,0 +1,32 @@
+
+body{
+    
+    background-color: darkslategray;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    max-width: 600px; 
+    margin: auto;
+    border-radius: 20px;
+    padding: 70px 0;
+    
+}
+
+.btns{
+    display: flex;
+    gap: 20px;
+}
+#curtir,#descurtir{
+    
+    color: white;
+    width: 50px;
+    
+}
+#curtir,#descurtir{
+    cursor: pointer;
+}
