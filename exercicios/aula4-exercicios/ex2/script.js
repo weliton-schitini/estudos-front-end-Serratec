@@ -12,9 +12,10 @@ curtir.addEventListener("click",(()=>{
 
 
 descurtir.addEventListener("click",(()=>{
-    document.getElementById("curtidas").innerText = --cont
+    if(cont > 0){
+         document.getElementById("curtidas").innerText = --cont
     emoticom.src = "../images/sad.png"
-    if(cont < 0){
+    }else if(cont == 0){
         emoticom.src = "../images/dead.png"
     }
 }))

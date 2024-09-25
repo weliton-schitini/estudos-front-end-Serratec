@@ -19,12 +19,12 @@ body{
 
 .btns{
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 #curtir,#descurtir{
     
     color: white;
-    width: 50px;
+    width: 70px;
     
 }
 #curtir,#descurtir{
