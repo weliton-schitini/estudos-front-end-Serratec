@@ -3,17 +3,15 @@ let addBtn = document.getElementById("add-btn")
 let lista = document.getElementById("lista")
 
 addBtn.addEventListener("click", () => {
-
     crateList()
 
 
-       
+
 })
 
 
 tarefa.addEventListener("keypress", (ele) => {
     if (ele.key == "Enter") {
-       
         crateList()
     }
 
@@ -21,7 +19,7 @@ tarefa.addEventListener("keypress", (ele) => {
 
 })
 
-function crateList(){
+function crateList() {
     if (tarefa.value != "") {
 
         let li = document.createElement("li")
